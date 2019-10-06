@@ -9,6 +9,7 @@ import { EconomyComponent } from './economy/economy.component';
 import { LawComponent } from './law/law.component';
 import { CulturalTrendsComponent } from './cultural-trends/cultural-trends.component';
 import { OverviewComponent } from './overview/overview.component';
+import { BibliographyComponent } from './bibliography/bibliography.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { OverviewComponent } from './overview/overview.component';
     LawComponent,
     CulturalTrendsComponent,
     OverviewComponent,
+    BibliographyComponent,
   ],
   imports: [
     BrowserModule,

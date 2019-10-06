@@ -6,14 +6,16 @@ import {EconomyComponent} from './economy/economy.component';
 import {ConflictComponent} from './conflict/conflict.component';
 import {CulturalTrendsComponent} from './cultural-trends/cultural-trends.component';
 import {LawComponent} from './law/law.component';
+import {BibliographyComponent} from './bibliography/bibliography.component';
 
-let routes: Routes = [
+const routes: Routes = [
   {path: 'overview', component: OverviewComponent},
   {path: 'medicine', component: MedicineComponent},
   {path: 'economy', component: EconomyComponent},
   {path: 'conflict', component: ConflictComponent},
   {path: 'law', component: LawComponent},
   {path: 'culture', component: CulturalTrendsComponent},
+  {path: 'bib', component: BibliographyComponent},
   {path: '', redirectTo: '/overview', pathMatch: 'full'}
 ];
 
