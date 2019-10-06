@@ -4,7 +4,7 @@ import {Router} from '@angular/router';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass', '../../node_modules/bulma/css/bulma.min.css']
+  styleUrls: ['./app.component.sass', '../bulma.min.css']
 })
 export class AppComponent {
   title = 'SPres';

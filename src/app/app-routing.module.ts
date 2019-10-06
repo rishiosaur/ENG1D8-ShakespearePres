@@ -7,8 +7,7 @@ import {ConflictComponent} from './conflict/conflict.component';
 import {CulturalTrendsComponent} from './cultural-trends/cultural-trends.component';
 import {LawComponent} from './law/law.component';
 
-let routes: Routes;
-routes = [
+let routes: Routes = [
   {path: 'overview', component: OverviewComponent},
   {path: 'medicine', component: MedicineComponent},
   {path: 'economy', component: EconomyComponent},
